@@ -3050,6 +3050,9 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 	@media screen and (min-width: 750px){
 	.collection .grid {
       column-gap: 25px;
+      display: flex;
+  	  justify-content: center;
+      align-items:center;
 		}
      .collection .card__content .quick-add {
        opacity: 0;
