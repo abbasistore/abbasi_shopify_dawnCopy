@@ -191,12 +191,13 @@
                       {%- endif -%}
                     </div>
                   </td>
-
+{% comment %} 
                   <td class="cart-item__quantity">
                     <div class="cart-item__quantity-wrapper">
                       <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
                         {{ 'products.product.quantity.label' | t }}
                       </label>
+                       
                       <quantity-input class="quantity">
                         <button class="quantity__button no-js-hidden" name="minus" type="button">
                           <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: item.product.title | escape }}</span>
@@ -233,7 +234,7 @@
                       </svg>
                     </div>
                   </td>
-
+{% endcomment %} 
                   <td class="cart-item__totals right small-hide">
                     <div class="loading-overlay hidden">
                       <div class="loading-overlay__spinner">
