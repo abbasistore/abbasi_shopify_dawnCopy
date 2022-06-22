@@ -3073,11 +3073,12 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
       text-align:center !important;
       align-items:center !important;
       padding:15px !important;
+      transition: 0.5s !important;
       
     	}
  	.card:hover{
       border: 1px solid #bababa !important;
-      transition: 0.5s !important;
+      
       
     	}
   
