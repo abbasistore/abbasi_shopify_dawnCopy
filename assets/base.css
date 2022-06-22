@@ -3064,8 +3064,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
        opacity: 1;
      	} 
      .collection li:hover .card__content{
-       border: 1px solid #ededed !important;
-       border-top:none !important;
+   
       	}
 	}
     
