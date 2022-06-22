@@ -220,8 +220,9 @@
               </a>
             </div>
           {%- when 'price' -%}
-            <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+        <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}> <h2>
+          {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}</h2>
+              
               <h3>🚚 FREE SHIPPING</h3>
             </div>
             {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
