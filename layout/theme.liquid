@@ -255,6 +255,32 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
     </script>
+    
+     <script>
+  	var onAppear = [];
+
+	document.addEventListener("DOMContentLoaded", function() {
+  	onAppear = [].map.call(document.querySelectorAll(".header__heading"), function(item ) {
+    	return item;
+  		});
+	}, false);
+
+	window.addEventListener("scroll", function() {
+      onAppear.forEach(function(elem) {
+        var vwTop = window.pageYOffset;
+        var vwBottom = (window.pageYOffset + window.innerHeight);
+        var elemTop = elem.offsetTop;
+        var elemHeight = elem.offsetHeight;
+    
+          if (vwBottom > elemTop && ((vwTop - elemHeight) > elemTop)) {
+                elem.classList.add("visible");
+    		 } 
+        	 else {
+      			elem.classList.remove("visible");
+    		}
+  		});
+	});
+</script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
