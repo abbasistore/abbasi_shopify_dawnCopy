@@ -607,7 +607,7 @@
     var elemTop = elem.offsetTop;
     var elemHeight = elem.offsetHeight;
     
-    if (vwBottom > elemTop && ((vwTop - elemHeight) < elemTop)) {
+    if ($(window).scrollTop() >= 650) {
      		elem.classList.add("visible");
     	} else {
       		elem.classList.remove("visible");
