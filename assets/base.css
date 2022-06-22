@@ -3130,3 +3130,11 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 	width: 25%;
   	padding-bottom:10px;
 } */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' -25,
+  'opsz' 40
+}
