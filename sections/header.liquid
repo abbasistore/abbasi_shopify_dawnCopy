@@ -607,7 +607,7 @@
     var elemTop = elem.offsetTop;
     var elemHeight = elem.offsetHeight;
     
-    if (vwBottom > elemTop) {
+    if (vwBottom > elemTop && ((vwTop - elemHeight) > elemTop)) {
      		elem.classList.add("visible");
     	} else {
       		elem.classList.remove("visible");
