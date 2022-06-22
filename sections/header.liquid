@@ -360,8 +360,7 @@
             <span class="h2 logoMoveClass">BBASI</span>
           {%- endif -%}
         </a>
-    {%- if request.page_type == 'index' -%}
-        
+    {%- if request.page_type == 'index' -%}    
       </h1>
     {%- endif -%}
 	
@@ -591,7 +590,31 @@
   
   });
 </script>   
+        
+ <script>
+  var onAppear = [];
 
+document.addEventListener("DOMContentLoaded", function() {
+  onAppear = [].map.call(document.querySelectorAll(".header__heading"), function(item ) {
+    return item;
+  });
+}, false);
+
+window.addEventListener("scroll", function() {
+  onAppear.forEach(function(elem) {
+    var vwTop = window.pageYOffset;
+    var vwBottom = (window.pageYOffset + window.innerHeight);
+    var elemTop = elem.offsetTop;
+    var elemHeight = elem.offsetHeight;
+    
+    if (vwBottom > elemTop && ((vwTop - elemHeight) < elemTop)) {
+     elem.classList.add("visible");
+    } else {
+      elem.classList.remove("visible");
+    }
+  });
+}, false);
+</script>
 
         
         
