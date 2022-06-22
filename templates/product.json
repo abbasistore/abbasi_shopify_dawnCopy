@@ -6,12 +6,17 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "Ref: 123",
             "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "6d42f9b3-36df-4440-8ba6-3680a9dfc097": {
+          "type": "rating",
           "settings": {
           }
         },
@@ -96,6 +101,7 @@
       "block_order": [
         "vendor",
         "title",
+        "6d42f9b3-36df-4440-8ba6-3680a9dfc097",
         "caption",
         "price",
         "variant_picker",
