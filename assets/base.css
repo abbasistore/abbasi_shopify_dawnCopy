@@ -3124,13 +3124,3 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   	}
   		
   
-  .header__heading {
-  transition: transform 500ms;
-    position: absolute;
-	left: 0;
-	width: 30%;
-}
-
- .header__heading.visible {
-  transform: translate3d(250px, 0px, 0px);
-}
