@@ -3129,3 +3129,8 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 	left: 0;
 	width: 30%;
 }
+  
+  @media screen and (max-width: 480px)
+.header__heading {
+  width: 100%;
+}
