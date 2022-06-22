@@ -3046,7 +3046,9 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
     position: absolute !important;
 }
 }*/
+ 
   
+/* Card Designs (border, radius, margin, padding etc) */
 	@media screen and (min-width: 750px){
 	.collection .grid {
       column-gap: 25px;
@@ -3101,7 +3103,9 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
       align-items:center !important;
     	}
  
+ 
   
+  /* add to cart button on hover */
   .quick-add button{
   	background-color:black !important;
   	color: white !important;
@@ -3113,6 +3117,3 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
     border:none !important;
   	}
   		
-  button{
-    border-radius: 0 !important;
-  }
