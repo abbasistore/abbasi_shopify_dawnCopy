@@ -3139,12 +3139,12 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   'opsz' 20
 }
 
-  
+/* Tooltip Designs and customization in the product page */  
   .tooltip .tooltipI{
   text-transform: lowercase;
   font-family: "Times New Roman", Times, serif;
   font-size:2rem;
-  color:yellow;
+  color:#f0f005;
   } 
   
   .tooltip {
@@ -3156,10 +3156,9 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  border: 1px solid #f5f5f5;
   color: black;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 2px;
   padding: 5px 0;
   background-color:#f5f5f5;
   
