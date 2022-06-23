@@ -3141,8 +3141,11 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 
   
   .freeshipping{
-  background-color:red;
-  padding:20px !important;}
+  background-color:#f0f0f0;
+  padding:10px !important;
+  border-radius:2px;
+  
+  }
   
   
   .freeshipping svg {
