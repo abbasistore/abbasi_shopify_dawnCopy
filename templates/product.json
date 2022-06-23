@@ -97,6 +97,14 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "1ccc1b36-b77e-4623-97db-30c49ed4a0db": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -113,7 +121,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "1ccc1b36-b77e-4623-97db-30c49ed4a0db"
       ],
       "settings": {
         "enable_sticky_info": true,
