@@ -223,7 +223,7 @@
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
-              <div class="tooltip">FREE SHIPPING <span class="tooltipI"><b><i>i</i></b></span> 
+              <div class="tooltip">FREE SHIPPING <span class="tooltipI dot"><b><i>i</i></b></span> 
   				<span class="tooltiptext">free shipping desc text</span>
               </div>
             </div>
