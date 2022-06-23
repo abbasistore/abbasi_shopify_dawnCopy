@@ -3144,6 +3144,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   text-transform: lowercase;
   font-family: "Times New Roman", Times, serif;
   font-size:2rem;
+  color:yellow;
   } 
   
   .tooltip {
