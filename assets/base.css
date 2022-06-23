@@ -3155,7 +3155,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: auto;
+  width: 100%;
   color: black;
   text-align: center;
   border-radius: 2px;
