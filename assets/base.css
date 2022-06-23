@@ -3144,6 +3144,9 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   text-transform: lowercase;
   font-family: "Times New Roman", Times, serif;
   font-size:2rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
   } 
   
   .tooltip {
@@ -3170,11 +3173,4 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-}
-  .dot {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
 }
