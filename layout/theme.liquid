@@ -7,6 +7,12 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    
+    <!-- CSS for product images slider -->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<!-- JavaScript for product images slider -->
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+    
 	<script src="//code.jquery.com/jquery-1.11.3.js"></script>
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
