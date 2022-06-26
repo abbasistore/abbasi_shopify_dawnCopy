@@ -22,7 +22,6 @@
         },
         "caption": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
