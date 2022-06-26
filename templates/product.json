@@ -6,7 +6,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "ABBASI",
+            "text": "{{ product.metafields.custom.refno.value }}12345",
             "text_style": "uppercase"
           }
         },
