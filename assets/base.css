@@ -3193,3 +3193,13 @@ tr:nth-child(even) {
 }
   
   /* ************************ Product image slider ********** */
+
+  
+  /************************** REMOVE CART HIDDEN ONLY ******************/
+  
+  .cart-items .cart-items__heading--wide {
+    font-size: 0 !important;
+	}
+  .cart-item__quantity-wrapper {
+	display: none !important;
+	}
