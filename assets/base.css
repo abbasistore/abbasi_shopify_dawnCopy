@@ -3197,3 +3197,9 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   
   /************************** REMOVE CART HIDDEN ONLY ******************/
   
+  .cart-items .cart-items__heading--wide {
+    font-size: 0 !important;
+	}
+  .cart-item__quantity-wrapper {
+	display: none !important;
+	}
