@@ -3195,7 +3195,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   /* ************************ Product image slider ********** */
 
   
-  /************************** REMOVE CART HIDDEN ONLY ******************/
+  /************************** REMOVE CART HIDDEN ONLY but this removes the remove button too ******************/
   
  /* .cart-items .cart-items__heading--wide {
     font-size: 0 !important;
