@@ -6,7 +6,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.refno.value }}12345",
+            "text": "{{ product.metafields.custom.refno.value }}",
             "text_style": "uppercase"
           }
         },
