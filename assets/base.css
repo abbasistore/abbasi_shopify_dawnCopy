@@ -3207,10 +3207,6 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   
   /************************ REMOVE ZOOM IN EFFECT ON PRODUCT CARDS ******************************* */
   
-  @media only screen and (min-width: 990px){
-		.card:hover .media.media--hover-effect>img:first-child:only-child, 
-		.card-wrapper:hover .media.media--hover-effect>img:first-child:only-child {
-			transform: unset !important;
-
-		}
-	}
+ .card-wrapper:hover .media.media--hover-effect>img+img{
+transform: none !important;
+}
