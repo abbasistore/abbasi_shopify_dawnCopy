@@ -5,8 +5,9 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "{{ product.metafields.custom.refno.value }}",
+            "text": "{{ product.metafields.custom.refno.value }}34343",
             "text_style": "uppercase"
           }
         },
