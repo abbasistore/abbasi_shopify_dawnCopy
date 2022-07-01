@@ -3242,3 +3242,16 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
  position: absolute;
  font-size: 0.875em;
 } */
+  
+  
+.card__badge--label-new {
+  position: absolute;
+  display: inline-block;
+  line-height: 1;
+  text-align:center;
+  font-size: 1.2rem;
+  left: .5rem;
+  top: .5rem; 
+  background-color: #9fb18e ;
+  color:white;
+  padding: .6rem 1.3rem;
