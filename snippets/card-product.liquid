@@ -31,11 +31,6 @@
     endif
   -%}
 
-{% for tag in product_card_product.tags %}
- {% if tag == "label-new" %}
-   <div class="label-new">NEW!</div>
- {% endif%}
-{% endfor %}
 
   <div class="card-wrapper underline-links-hover">
     <div class="card
@@ -227,6 +222,14 @@
       </div>
     </div>
   </div>
+
+{% for tag in product_card_product.tags %}
+ {% if tag == "label-new" %}
+   <div class="label-new">NEW!</div>
+ {% endif%}
+{% endfor %}
+
+
 {%- else -%}
   <div class="card-wrapper underline-links-hover">
     <div class="card
@@ -268,4 +271,9 @@
       </div>
     </div>
   </div>
+{% for tag in product_card_product.tags %}
+ {% if tag == "label-new" %}
+   <div class="label-new">NEW!</div>
+ {% endif%}
+{% endfor %}
 {%- endif -%}
