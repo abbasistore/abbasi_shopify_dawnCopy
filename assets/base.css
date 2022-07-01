@@ -3176,8 +3176,8 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 }
 
 /* ***************************TABLE SETTINGS ***************************************/
-  table {
-  font-family: arial, sans-serif;
+  .productTable {
+  
   border-collapse: collapse;
   width: 100%;
 	}
