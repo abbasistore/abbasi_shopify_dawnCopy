@@ -100,8 +100,11 @@
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
               <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
             
-                        {%- elsif card_product.tags contains 'framed' -%}
-              <span class="card__badge--framed">{{ 'Framed' }}</span> 
+            <div>
+ {%- if product_card_product.tags contains "framed" -%}
+  <span class="card__badge--new">NEW</span>
+ {%- endif -%}
+</div>
             
             {%- endif -%}
           </div>
