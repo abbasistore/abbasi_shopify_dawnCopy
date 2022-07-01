@@ -663,11 +663,13 @@
          padding: 0px;
          top: 1px;
          position: relative;
+       	 
      	}
       
      .clearfix{
        clear: both;
-       
+       display:flex;
+  	   justify-content:space-evenly;
        }
 
      .cgt-desc ul li{
@@ -677,6 +679,9 @@
        z-index: 0;
        margin: 0;
        padding: 0;
+       transition: 0.3s;
+   	   width:100%;
+       
        }
 
      .cgt-desc ul li:first-child{
