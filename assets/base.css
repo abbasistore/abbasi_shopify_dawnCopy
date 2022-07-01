@@ -3244,7 +3244,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 } */
   
   
-  .card__badge--new {
+  .card__badge--framed {
   position: absolute;
   display: inline-block;
   line-height: 1;

@@ -314,7 +314,7 @@
 }
 
 
-.card__badge--new {
+.card__badge--framed {
   position: absolute;
   display: inline-block;
   line-height: 1;
