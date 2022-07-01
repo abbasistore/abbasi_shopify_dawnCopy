@@ -222,15 +222,12 @@
       </div>
     </div>
   </div>
-
+{%- else -%}
 {% for tag in product_card_product.tags %}
  {% if tag == "label-new" %}
    <div class="label-new">NEW!</div>
  {% endif%}
 {% endfor %}
-
-
-{%- else -%}
   <div class="card-wrapper underline-links-hover">
     <div class="card
       card--{{ settings.card_style }}
@@ -271,9 +268,9 @@
       </div>
     </div>
   </div>
+{%- endif -%}
 {% for tag in product_card_product.tags %}
  {% if tag == "label-new" %}
    <div class="label-new">NEW!</div>
  {% endif%}
 {% endfor %}
-{%- endif -%}
