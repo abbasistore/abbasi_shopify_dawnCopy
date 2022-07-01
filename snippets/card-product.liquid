@@ -30,11 +30,13 @@
       assign ratio = 1
     endif
   -%}
+
 {% for tag in product_card_product.tags %}
  {% if tag == "label-new" %}
    <div class="label-new">NEW!</div>
  {% endif%}
 {% endfor %}
+
   <div class="card-wrapper underline-links-hover">
     <div class="card
       card--{{ settings.card_style }}
