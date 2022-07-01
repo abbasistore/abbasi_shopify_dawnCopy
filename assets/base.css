@@ -3233,7 +3233,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 }
   
   
-.label-new {
+/*.label-new {
  background: var( — color-base-background-2);
  border: 2px solid var( — color-base-background-1);
  margin-top: 1em;
@@ -3241,4 +3241,4 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
  z-index: 2;
  position: absolute;
  font-size: 0.875em;
-}
+} */
