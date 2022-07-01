@@ -3221,6 +3221,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   
   
  /* *************************** SALE BADGE OVER IMAGES ********************* */
-  span.badge.badge--bottom-left.color-accent-2 {
-    border-radius: red !important;
+span.badge.badge--bottom-left.color-accent-2 {
+    background-color: #7688CC !important;
+    border-color: #7688CC !important;
 }
