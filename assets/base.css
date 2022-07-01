@@ -3182,16 +3182,16 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   width: 100%;
 	}
 
-	td, th {
+	..productTable > td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 	}
 
-/*	tr:nth-child(even) {
+ .productTable > tr:nth-child(even) {
   background-color: #dddddd;
 	}
-  */
+ 
   /* ************************ Product image slider ********** */
 
   
