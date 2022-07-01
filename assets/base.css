@@ -3056,16 +3056,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   	  justify-content: center;
       align-items:center;
 		}
-     .collection .card__content .quick-add {
-       opacity: 0;
-       transition: 0.5s !important;
-     	}
-     .collection li:hover .card__content .quick-add{
-       opacity: 1;
-     	} 
-     .collection li:hover .card__content{
-   
-      	}
+
 	}
     
   	.card{
@@ -3111,7 +3102,7 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
  
  
   
-  /* add to cart button on hover */
+  /* *********************************** add to cart button on hover************************ */
   .quick-add button{
   	background-color:black !important;
   	color: white !important;
