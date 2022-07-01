@@ -3218,3 +3218,9 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 		transform: none !important;
 	}
 }
+  
+  
+ /* *************************** SALE BADGE OVER IMAGES ********************* */
+  span.badge.badge--bottom-left.color-accent-2 {
+    border-radius: 0 !important;
+}
