@@ -3224,10 +3224,10 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
 .badge {
   border-radius: 0 !important;
   opacity: 0.5 !important;
-      bottom: unset !important;
+  /*    bottom: unset !important;
     display: flex;
     flex-wrap: wrap;
     left: 1rem;
     position: absolute;
-    top: 1rem;
+    top: 1rem; */
 }
