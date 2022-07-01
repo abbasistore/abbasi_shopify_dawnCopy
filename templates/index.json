@@ -29,10 +29,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/5_48661bc3-511f-44fc-8011-fad5a94d268d.jpg",
+        "image": "shopify:\/\/shop_images\/5_c69ae539-72b8-46fb-a259-5b13ca6f87aa.jpg",
         "image_overlay_opacity": 30,
-        "image_height": "small",
-        "adapt_height_first_image": true,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
