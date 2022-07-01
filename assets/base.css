@@ -3231,3 +3231,14 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
     position: absolute;
     top: 1rem; */
 }
+  
+  
+.label-new {
+ background: var( — color-base-background-2);
+ border: 2px solid var( — color-base-background-1);
+ margin-top: 1em;
+ padding: 0.3em 0.5em;
+ z-index: 2;
+ position: absolute;
+ font-size: 0.875em;
+}
