@@ -3222,6 +3222,5 @@ h1,h2,h3,h4,h5,.h0,.h1,.h3,.h4,.h5{
   
  /* *************************** SALE BADGE OVER IMAGES ********************* */
 .badge {
-  background-color: green !important;
-  border-color: green !important;
+  border-radius: 0 !important;
 }
